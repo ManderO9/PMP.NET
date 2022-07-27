@@ -1,7 +1,7 @@
 ﻿namespace PMP.Web
 {
     /// <summary>
-    /// Contains The errors to show in the main page of the user
+    /// Contains The data to show in the main page of the user
     /// </summary>
     public class UserMainPageDataModel
     {
