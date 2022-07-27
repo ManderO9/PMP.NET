@@ -1,0 +1,31 @@
+﻿
+
+
+html{
+    background-color:black;
+    color:white;
+}
+
+header ul{
+    display:flex;
+    flex-direction:row;
+}
+li{
+    text-decoration:none;
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    color:antiquewhite;
+}
+a:visited{
+    text-decoration:none;
+    color:antiquewhite;
+
+}
+a:hover{
+color:aqua;
+
+}

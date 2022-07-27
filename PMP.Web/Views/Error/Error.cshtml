@@ -1,0 +1,13 @@
+﻿@model ErrorDataModel
+
+<h1>there was an error</h1>
+<h2>@Model.Title</h2>
+
+<p>we need some help to fix it!!!</p>
+
+<p>the errors that the wizard has provided are</p>
+
+@foreach (var error in Model.Errors)
+{
+    <p>@error</p>
+}
