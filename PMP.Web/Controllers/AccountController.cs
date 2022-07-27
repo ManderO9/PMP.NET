@@ -132,7 +132,7 @@ public class AccountController : Controller
     }
 
     /// <summary>
-    /// Singns the user in, an created an new user in the database
+    /// Singns the user in, and creates a new user in the database
     /// </summary>
     /// <param name="username">The user's username</param>
     /// <param name="email">The user's email</param>

@@ -15,7 +15,7 @@ namespace PMP.Web
         /// <returns></returns>
         public static ModelBuilder ConfigureUsers(this ModelBuilder modelBuilder)
         {
-            // Configure the unique ID
+            // Configure the foreign key to the teams table
             modelBuilder.Entity<AppUser>().Property(u => u.EquipeId).IsRequired(false);
 
             // Give the student a team, with a foreign key EquipeId having the id of that team

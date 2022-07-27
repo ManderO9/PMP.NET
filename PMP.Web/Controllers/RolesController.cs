@@ -43,7 +43,7 @@ public class RolesController : Controller
     #region Public Actions
 
     /// <summary>
-    /// Creates a new role and adds it to the persistant store
+    /// Creates a new role and adds it to the persistent store
     /// </summary>
     /// <param name="roleName">The name of the role to add</param>
     /// <returns></returns>

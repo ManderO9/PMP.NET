@@ -1,7 +1,7 @@
 ﻿namespace PMP.Web
 {
     /// <summary>
-    /// Contains static routes enpoints in our application
+    /// Contains static route endpoints in our application
     /// </summary>
     public class Routes
     {
